@@ -42,7 +42,7 @@
             return (
                 <tr>
                     <td style={style.tableContent}>
-                        <input type="checkbox" checked={this.state.checked} onChange={this.handleChange.bind(this)}/>
+                        <input type="checkbox" checked={this.state.checked} onChange={this.handleChange}/>
                     </td>
                     <td style={style.tableContent}>{this.props.title}</td>
                     <td style={style.tableContent}>{this.props.children}</td>
